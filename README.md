@@ -12,7 +12,9 @@ A modern and stylish **Login & Registration Page** designed with **HTML, CSS, an
 
 ## 📷 Preview
 
-![Login Form Preview](./screenshot.png)
+![Image](https://github.com/user-attachments/assets/21df0595-c272-4f86-a697-db785c5543fa)
+
+![Image](https://github.com/user-attachments/assets/eafa0b52-b998-4c06-b072-449d618152a0)
 
 ## 🚀 Future Integration
 
