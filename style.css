@@ -119,14 +119,15 @@ header {
 }
 
 .wrapper.active .form-box.login {
-  transition: absolute;
+  transition: transform 0.18s ease;
+  position: absolute;
   transform: translateX(-400px);
 }
 
 .wrapper .form-box.register {
   position: absolute;
   transition: none;
-  transform: translate(400px);
+  transform: translateX(400px);
 }
 
 .wrapper.active .form-box.register {
@@ -178,8 +179,13 @@ header {
 }
 
 .input-box input:focus ~ label,
-.input-box input:valid ~ label {
+.input-box input:valid ~ label,
+.input-box input.has-value ~ label {
   top: -5px;
+  color: #162938;
+  font-size: 0.85em;
+  background: transparent;
+  padding: 0 3px;
 }
 
 .input-box input {
